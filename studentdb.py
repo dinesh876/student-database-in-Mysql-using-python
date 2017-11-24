@@ -89,7 +89,7 @@ class Student:
         print("Deleted successfully")
     @staticmethod
     def connect():
-        Student.con=mysql.connector.connect(host='localhost',database='mysql',user='root',password='watchdog2')
+        Student.con=mysql.connector.connect(host='localhost',database='mysql',user='root',password='password')
         if Student.con.is_connected():
             print('connected to mysql database')
     @staticmethod
